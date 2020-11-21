@@ -1,0 +1,15 @@
+{
+  "name": "docker-cloudwatch-heartbeat",
+  "version": "1.0.0",
+  "description": "Docker container to send custom metric heartbeat to cloudwatch",
+  "main": "index.js",
+  "repository": "git@github.com:brgaulin/docker-cloudwatch-heartbeat.git",
+  "author": "Brendan Davis <brgaulin@gmail.com>",
+  "license": "Apache",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.797.0"
+  }
+}
